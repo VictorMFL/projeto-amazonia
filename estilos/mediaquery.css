@@ -119,3 +119,66 @@ TV: acima de 1200px
         font-size: 0.8em;
     }
 }
+
+@media screen and (min-width: 500px) and (max-width:600px)   /*Tela de Celulares meores!*/{
+    main > nav > ul {
+        font-size:0.6em;
+    }
+
+    main > h1 {
+        font-size: 1.4em;
+        padding: 20px;
+    }
+    main > h2 {
+        font-size: 0.6em;
+        padding-bottom: 0px;
+    }
+
+    img {
+        width: 40%;
+        padding-top: 60px;
+        padding-right: 20px;
+    }
+    
+
+    p#amz {
+        font-size: 0.8em;
+        padding: 80px 10px;
+    }
+
+    p#clima {
+        font-size: 0.6em;
+        padding: 9px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    p#vegetacao {
+        font-size: 0.6em;
+        padding: 5px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    p#bio {
+        font-size: 1em;
+    }
+
+    ul#bioma {
+        padding: 20px;
+        font-size: 0.6em;
+    }
+
+    ul#curiosidade {
+        padding: 20px;
+        font-size: 0.6em;
+    }
+    
+    footer {
+        background-color: var(--cor01);
+        padding: 8px;
+        text-align: center;
+        color: white;
+        font-size: 0.6em;
+    }
+}
