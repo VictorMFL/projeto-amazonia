@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/*
+Tamanhos de tala
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+TV: acima de 1200px
+*/
+
+
+@media screen and (min-width: 768px) and (max-width:992px)
+/*Tela de Tablet!*/{
+    main > nav > ul {
+        font-size:1em;
+    }
+    main > h2 {
+        font-size: 1em;
+    }
+
+    p#amz {
+        font-size: 0.8em;
+        padding: 100px 10px;
+    }
+
+    p#clima {
+        font-size: 0.8em;
+        padding: 75px 10px;
+    }
+
+    p#vegetacao {
+        font-size: 0.8em;
+        padding: 10px;
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    p#bio {
+        font-size: 1.4em;
+        font-weight: bolder;
+    }
+
+    ul#bioma {
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    ul#curiosidade {
+        padding: 20px;
+        font-size: 1em;
+    }
+    
+    footer {
+        background-color: var(--cor01);
+        padding: 8px;
+        text-align: center;
+        color: white;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:768px)   /*Tela de Celular!*/{
+    main > nav > ul {
+        font-size:0.8em;
+    }
+
+    main > h1 {
+        font-size: 1.8em;
+    }
+    main > h2 {
+        font-size: 0.8em;
+        padding-bottom: 0px;
+    }
+
+    img {
+        width: 40%;
+        padding-top: 60px;
+        padding-right: 20px;
+    }
+    
+
+    p#amz {
+        font-size: 1em;
+        padding: 80px 10px;
+    }
+
+    p#clima {
+        font-size: 0.8em;
+        padding: 9px;
+        padding-bottom: 80px;
+    }
+
+    p#vegetacao {
+        font-size: 0.8em;
+        padding: 5px;
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    p#bio {
+        font-size: 1.2em;
+    }
+
+    ul#bioma {
+        padding: 20px;
+        font-size: 0.8em;
+    }
+
+    ul#curiosidade {
+        padding: 20px;
+        font-size: 0.8em;
+    }
+    
+    footer {
+        background-color: var(--cor01);
+        padding: 8px;
+        text-align: center;
+        color: white;
+        font-size: 0.8em;
+    }
+}
