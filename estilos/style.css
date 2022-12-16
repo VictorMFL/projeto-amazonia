@@ -14,7 +14,11 @@
     --cor04 : #18A558;
 }
 
-body, html {
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     background-color: var(--cor03);
 }
 
@@ -22,7 +26,7 @@ main {
     background-color: white;
     width: 90vw;
     display: block;
-    margin: 10px auto;
+    margin: auto;
 }
 
 main > nav > ul {
@@ -98,17 +102,16 @@ p#bio {
 }
 
 ul#bioma {
-    padding: 20px;
+    padding: 1.8rem;
     font-size: 1.4em;
 }
 
 ul#bioma > li {
     padding: 7px;
-    
 }
 
 ul#curiosidade {
-    padding: 20px;
+    padding: 1.8rem;
     font-size: 1.4em;
 }
 

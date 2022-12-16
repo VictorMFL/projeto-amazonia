@@ -120,7 +120,7 @@ TV: acima de 1200px
     }
 }
 
-@media screen and (min-width: 500px) and (max-width:600px)   /*Tela de Celulares meores!*/{
+@media screen and (min-width: 500px) and (max-width:600px)   /*Tela de Celulares menores!*/{
     main > nav > ul {
         font-size: 0.6em;
     }
@@ -130,7 +130,7 @@ TV: acima de 1200px
         padding: 20px;
     }
     main > h2 {
-        font-size: 0.4em;
+        font-size: 0.7em;
         padding-bottom: 0px;
     }
 
@@ -229,7 +229,7 @@ TV: acima de 1200px
 
     ul#bioma {
         padding: 20px;
-        font-size: 0.6em;
+        font-size: 0.65     DGJD em;
     }
 
     ul#curiosidade {
